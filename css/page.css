@@ -1,0 +1,224 @@
+.dynamicPage {
+
+}
+	.dynamicPage .switchInfo {
+		
+	}
+		.dynamicPage .switchInfo .switchInfo-btns {
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 48px;
+			background-color: #79ACFF;
+			border-radius: 5px;
+			padding: 2px;
+			display: flex;
+			width: max-content;
+		}
+			.dynamicPage .switchInfo .switchInfo-btns button.switchInfo-btn {
+				height: 40px;
+				width: 120px;
+				border-radius: 5px;
+				font-size: 16px;
+				font-weight: 600;
+			}
+				button.active {
+					background-color: #fff;
+					color: #79ACFF;
+				}
+
+
+
+	.dynamicPage .infoCard {
+		padding: 40px;
+		border-radius: 5px;
+		box-shadow: 0 2px 10px rgba(121, 172, 255, 0.4);
+		font-size: 20px;
+	}
+
+		.dynamicPage .infoCard .valueProd {
+			margin-top: 48px;
+			display: flex;
+			flex-wrap: wrap;			
+		}
+		
+		.dynamicPage .infoCard .valueProd .valueProd-stat {
+			width: 50%;
+			margin-bottom: 24px;
+		}
+	
+		.dynamicPage .infoCard img.imgProd {
+			max-width: 530px;
+			min-width: 450px;
+			float: right;
+		}
+
+		.dynamicPage .infoCard .textInfo {
+			margin-top: 55px;
+		}
+
+.dynamicPage .recepts {
+	margin-top: 50px;
+}
+	.dynamicPage .recepts h1 {
+		text-align: center;
+
+	}
+	.dynamicPage .recepts .recepts-prev .otstup {
+		margin-bottom: 50px;
+	}
+	.dynamicPage .recepts .recepts-prev a {
+		display: block;
+		text-decoration: none;
+		border-radius: 5px;
+		box-shadow: 0 2px 10px rgba(121, 172, 255, 0.4);
+	}
+		.dynamicPage .recepts .recepts-prev .preview {
+
+		}
+			.dynamicPage .recepts .recepts-prev .preview .preview-img img {
+				width: 100%;
+				border-top-left-radius: 5px;
+				border-top-right-radius: 5px;
+			}
+				.dynamicPage .recepts .recepts-prev .preview .preview-info {
+					background-color: #fff;
+					padding: 10px;
+					border-bottom-left-radius: 5px;
+					border-bottom-right-radius: 5px;
+					height: 130px;
+					position: relative;
+				}
+					.dynamicPage .recepts .recepts-prev .preview .preview-info h4 {
+						font-weight: 600;
+						text-align: center;
+					}
+						.dynamicPage .recepts .recepts-prev .preview .preview-info .info-det {
+							width: 90%;
+							position: absolute;
+							bottom: 15px;
+							left: 15px;
+						}
+							.preview-info .info-det span.time,
+							.preview-info .info-det span.portion {
+								display: inline-block;
+							}
+								.preview-info .info-det span.time img,
+								.preview-info .info-det span.portion img {
+									width: 15px;
+									height: 15px;
+									display: inline-block;
+								}
+							.preview-info .info-det span.portion {
+								float: right;
+							}
+
+
+
+
+/* dish.page */
+
+
+.dishBlock {
+	font-size: 20px;
+}
+	.dishBlock .dishInfo {
+		box-shadow: 0 2px 10px rgba(121, 172, 255, 0.4);
+		border-radius: 5px;
+		padding: 35px 130px;
+	}
+		.dishInfo h1 {
+			text-align: center;
+			margin-bottom: 35px;
+		}
+		.dishInfo img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			min-width: 76%;
+			max-width: 76%;
+			margin-bottom: 35px;
+			border-radius: 5px;
+		}
+
+		.dishBlock .dishInfo .shortInfo {
+			
+		}
+			.shortInfo h3 {
+				text-align: center;
+			}
+			.dishBlock .dishInfo .shortInfo .valueProd {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 20px;
+			}
+				.valueProd .valueProd-stat {
+					text-align: center;
+				}
+			
+		.dishBlock .dishInfo .ingredimateInfo {
+			margin-top: 45px;
+		}
+			.dishBlock .dishInfo .ingredimateInfo h3 {
+				margin-bottom: 25px;
+			}
+			.dishBlock .dishInfo .ingredimateInfo ul {
+				text-decoration: none;
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+		.dishBlock .dishInfo .instructionDish {
+			margin-top: 45px;
+		}
+			.dishBlock .dishInfo .instructionDish span {
+				font-size: 16px;
+			}
+			.dishBlock .dishInfo .instructionDish ol {
+				font-weight: 600;
+				padding: 0;
+				margin: 0;
+				margin-left: 20px;
+				margin-top: 25px;
+			}
+				.dishBlock .dishInfo .instructionDish ol>li {
+					padding-left: 15px;
+				}
+				.dishBlock .dishInfo .instructionDish ol>li>p {
+					font-weight: 400;
+				}
+
+
+
+/* ingredimateBase page */
+
+.ingredList {
+
+}
+	.ingredList .ingredItem {
+		display: flex;
+		border-radius: 5px;
+		box-shadow: 0 2px 10px rgba(121, 172, 255, 0.4);
+		margin-bottom: 25px;
+	}
+		.ingredList .ingredItem .ingredItem-img {
+			padding: 0;
+			height: 56px;
+			width: 50px;
+			flex-grow: 2;
+		}
+			.ingredList .ingredItem .ingredItem-img img {
+				margin: 0;
+				max-height: 100%;
+				min-height: 100%;
+			}
+		.ingredList .ingredItem .ingredItem-title {
+			height: 56px;
+			width: 130px;
+			flex-grow: 3;
+			text-align: center;
+			line-height: 56px;
+			border-radius: 5px;
+			font-weight: 500;
+			font-size: 20px;
+		}

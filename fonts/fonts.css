@@ -1,0 +1,29 @@
+@font-face {
+font-family: 'Gilroy';
+src: url('Gilroy-SemiBold.eot');
+src: url('Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('Gilroy-SemiBold.woff') format('woff'),
+url('Gilroy-SemiBold.ttf') format('truetype');
+font-weight: 600;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gilroy';
+src: url('Gilroy-Medium.eot');
+src: url('Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+url('Gilroy-Medium.woff') format('woff'),
+url('Gilroy-Medium.ttf') format('truetype');
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Gilroy';
+src: url('Gilroy-Regular.eot');
+src: url('Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+url('Gilroy-Regular.woff') format('woff'),
+url('Gilroy-Regular.ttf') format('truetype');
+font-weight: 400;
+font-style: normal;
+}
